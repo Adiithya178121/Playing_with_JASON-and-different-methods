@@ -1,0 +1,10 @@
+function extractAndReverse(arr) {
+  const subArray = arr.slice(2, 4);
+  return subArray.reverse();
+}
+
+const numbers = [15, 30, 45, 60, 75, 90];
+const result = extractAndReverse(numbers);
+
+console.log("Original array:", numbers);  // [15, 30, 45, 60, 75, 90]
+console.log("Reversed subarray:", result); // [60, 45]
